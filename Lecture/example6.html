@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap-like Breakpoints</title>
+<style>
+  .container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    width: 90%;
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      background-color: lightblue;
+      width: 80%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      background-color: lightgreen;
+      width: 70%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      background-color: lightgoldenrodyellow;
+      width: 60%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      background-color: lightpink;
+      width: 50%;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Responsive Container with min-width</h1>
+    <p>Resize the window to see the color and width change.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual Container vs Container-Fluid</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      padding: 1rem;
+    }
+
+    /* Full-width container (like Bootstrap's .container-fluid) */
+    .container-fluid {
+      width: 100%;
+    }
+
+    /* Fixed-width container (like Bootstrap's .container) */
+    .container {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Breakpoints for fixed widths (mobile-first) */
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .container {
+        max-width: 1320px;
+      }
+    }
+
+    /* Utility-like styles to match Bootstrap example */
+    .bg-light {
+      background-color: #f8f9fa;
+      color: #000;
+    }
+
+    .bg-info {
+      background-color: #0dcaf0;
+      color: white;
+    }
+
+    .p-3 {
+      padding: 1rem;
+    }
+
+    .mb-3 {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 class="mb-3">Manual Containers</h1>
+
+  <!-- Fixed-width container -->
+  <div class="container bg-light p-3 mb-3">
+    Fixed-width container
+  </div>
+
+  <!-- Full-width container -->
+  <div class="container-fluid bg-info p-3">
+    Full-width container
+  </div>
+
+</body>
+
+</html>
