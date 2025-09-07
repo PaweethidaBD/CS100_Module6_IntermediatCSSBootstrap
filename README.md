@@ -35,7 +35,7 @@ This creates **your own copy** of the repository under your GitHub account.
 
 ### 3. Open and try the code
 - Open the project folder in **VS Code** (or your favorite code editor).
-- Open `.html` files directly in a web browser, **or**  
+- Open `.html` files in the **Lecture** folder directly in a web browser, **or**  
   use **Live Server** in VS Code for better experience.
 - Edit the files and experiment — you won’t affect the original repo.
 
