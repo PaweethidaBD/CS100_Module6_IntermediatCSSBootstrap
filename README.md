@@ -1,4 +1,4 @@
-# CS100_Module5_IntermediatCSSBootstrap Lecture Example Code
+# CS100_Module6_IntermediatCSSBootstrap Lecture Example Code
 
 This repository contains all the **HTML** and **CSS** example files used in our lectures.  
 You can use this code to review concepts, experiment, and practice.
